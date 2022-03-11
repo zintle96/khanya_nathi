@@ -1,0 +1,49 @@
+.card-text img {
+  width: 20%;
+}
+.navbar-toggler{
+  background-color: rgb(84, 184, 84);
+}
+.nav-item {
+  display: inline-block;
+  text-align: right;
+  /* text-align: center; */
+  padding: 0;
+  margin: 0 20px;
+}
+.nav-item a{
+color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-item a:hover {
+  color: rgb(84, 184, 84);
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
+  border-radius: 50%;
+}
+.card-deck {
+  margin: 0 50px;
+}
+.material-icons img {
+  width: 40%;
+}
+.img {
+  margin-top: 20%;
+  margin-left: 20%;
+  /* width: 50%;
+  height: 50%; */
+}
+p {
+  font-size: 20px;
+}
+.social-links img{
+  width: 5%;
+  height: 5%;
+}

@@ -26,6 +26,11 @@ color: black;
 .image-slider > img {
   height: 50%;
 }
+img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 .d-block {
   filter: brightness(40%);
 }

@@ -22,48 +22,58 @@
 
 <section class="get-in-touch py-4">
   <div class="container">
+    <form [formGroup]="formValue">
+      <h3 class="text-center">Please Get In Touch With Us</h3>
     <div class="contact-form row">
       <div class="form-field col-lg-6">
-        <input type="text" id="name" class="input-text" name="">
-        <label for="name" class="label">Name</label>
+        <input type="text" id="name" class="input-text" formControlName="name" placeholder="Name">
+        <label for="name" class="label"></label>
       </div>
 
       <div class="form-field col-lg-6">
-        <input type="text" id="surname" class="input-text" name="">
-        <label for="surname" class="label">Surname</label>
+        <input type="text" id="surname" class="input-text" formControlName="last_name" placeholder="Surname">
+        <label for="surname" class="label"></label>
       </div>
 
       <div class="form-field col-lg-6">
-        <input type="email" id="name" class="input-text" name="email">
-        <label for="email" class="label">Email</label>
+        <input type="email" id="email" class="input-text" formControlName="email" placeholder="Email">
+        <label for="email" class="label"></label>
       </div>
 
       <div class="form-field col-lg-6">
-        <input type="phone" id="name" class="input-text">
-        <label for="phone" class="label">Contact Number</label>
+        <input type="phone" id="phone" class="input-text" formControlName="contact" placeholder="Contant Number">
+        <label for="phone" class="label"></label>
       </div>
 
-      <div class="form-field col-lg-6">
-        <input type="message" id="name" class="input-text">
-        <label for="messgae" class="label">Message</label>
+      <div class="form-field col-lg-12">
+        <input type="message" id="name" class="input-text" formControlName="message" placeholder="Message">
+        <label for="messgae" class="label"></label>
       </div>
 
-      <div class="form-field col-lg-6">
+      <div class="form-field col-lg-12">
         <input type="submit" id="submit" class="submit-btn" value="submit">
         <!-- <label for="messgae" class="label">Message</label> -->
       </div>
 
     </div>
+  </form>
   </div>
 </section>
 
   <!-- footer -->
-  <footer class="p-5 text-white bg-dark text-center position-relative" id="contact">
+  <footer class="p-3 text-white bg-dark text-center position-relative" id="contact">
     <div class="container">
-      <div class="social-links">
-        <a href="https://www.instagram.com/meslane_z/"> <img src="assets/fb-logo.png" alt=""></a>
-      </div>
-      <p class="lead" >Khanya-Nathi Co-Op &copy; 2021</p>
 
+      <!-- <div class="col-lg-6 phone">
+        You can call or message us on the following contacts for your orders:
+      </div> -->
+      <div class="text-center mb-4">
+        Lwazi: 063 9509 808 <br> Siphesihle: 073 2027 556 <br> Yanga: 063 9628 902
+      </div>
+
+      <p class="lead" style="font-weight: bold">Khanya-Nathi Co-Op &copy; 2021</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/Khanya-Nathi-Youth-Co-op-103180915633517/"> <img src="assets/fb-logo.png" alt=""></a>
+      </div>
     </div>
     </footer>

@@ -13,18 +13,17 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="/about">About</a>
         </li>
-
-        <li class="nav-item dropdown">
+        <li class="nav-item">
+          <a class="nav-link" (click)="onClick('work')">Our Donations</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" routerLink="/garden">Our Garden</a></li>
-            <li><a class="dropdown-item" routerLink="/donations">Our Donations</a></li>
-            <!-- <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Donating Sanitary </a></li> -->
+
           </ul>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" routerLink="/contact">Contact</a>
         </li>
@@ -76,20 +75,22 @@
 </div>
 </section>
 
-<section class="work">
+<section class="work" id="work">
   <h1 class="text-center text-warning text-bold bg-white py-3">Our Work</h1>
   <div class="donations bg-dark text-white">
     <h3 class="text-center pt-4">Donations </h3>
     <div class="container">
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-md-6">
-          <img src="assets/img6.jpg" alt="" style="width: 70%;">
           <p>The Khanya-Nathi Co-Op distributes sanitary towels to the neighbouring schools, offer afternoon classes at Botha Sigcau Secondary School.</p>
+          <img src="assets/img6.jpg" alt="" style="width: 70%; height: 70%;">
+
         </div>
 
         <div class="col-md-6">
+
+          <img src="assets/img8.jpg" alt="" style="width: 70%; height: 70%;">
           <p>We also donate clothes to the needy in our community and its surroundings</p>
-          <img src="assets/img8.jpg" alt="" style="width: 90%;">
         </div>
       </div>
     </div>
@@ -101,11 +102,11 @@
       <div class="row">
         <div class="col-md-6">
           <p>The Khanya-Nathi Co-Op also offers afternoon classes at Botha Sigcau Secondary School.</p>
-          <img src="assets/img10.jpg" alt="" style="width: 70%;">
+          <img src="assets/img10.jpg" alt="" style="width: 70%; height: 70%;">
         </div>
 
         <div class="col-md-6">
-          <img src="assets/img9.jpg" alt="" style="width: 60%;">
+          <img src="assets/img9.jpg" alt="" style="width: 60%; height: 80%;">
           <p>Addressing the students</p>
         </div>
       </div>
@@ -115,12 +116,15 @@
 </section>
 
   <!-- footer -->
-  <footer class="p-5 text-white bg-dark text-center position-relative" id="contact">
+  <footer class="p-3 text-white bg-dark text-center position-relative" id="contact">
     <div class="container">
-      <div class="social-links">
-        <a href="https://www.instagram.com/meslane_z/"> <img src="assets/fb-logo.png" alt=""></a>
+      <div class="text-center mb-4">
+        Lwazi: 063 9509 808 <br> Siphesihle: 073 2027 556 <br> Yanga: 063 9628 902
       </div>
-      <p class="lead" >Khanya-Nathi Co-Op &copy; 2021</p>
 
+      <p class="lead" >Khanya-Nathi Co-Op &copy; 2021</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/Khanya-Nathi-Youth-Co-op-103180915633517/"> <img src="assets/fb-logo.png" alt=""></a>
+      </div>
     </div>
     </footer>

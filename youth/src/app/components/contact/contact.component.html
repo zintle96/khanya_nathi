@@ -22,36 +22,36 @@
 
 <section class="get-in-touch py-4">
   <div class="container">
-    <form [formGroup]="formValue" action="https://formspree.io/f/mvolrezr" method="POST">
+    <form action="https://formspree.io/f/mvolrezr" method="POST">
       <h3 class="text-center">Please Get In Touch With Us</h3>
     <div class="contact-form row">
       <div class="form-field col-lg-6">
-        <input type="text" id="name" class="input-text" formControlName="name" placeholder="Name">
+        <input type="text" id="name" class="input-text" formControlName="name" name="name" placeholder="Name">
         <label for="name" class="label"></label>
       </div>
 
       <div class="form-field col-lg-6">
-        <input type="text" id="surname" class="input-text" formControlName="last_name" placeholder="Surname">
+        <input type="text" id="last_name" class="input-text" formControlName="last_name" name="last_name" placeholder="Surname">
         <label for="surname" class="label"></label>
       </div>
 
       <div class="form-field col-lg-6">
-        <input type="email" id="email" class="input-text" formControlName="email" placeholder="Email">
+        <input type="email" id="email" class="input-text" name="email" formControlName="email" placeholder="Email">
         <label for="email" class="label"></label>
       </div>
 
       <div class="form-field col-lg-6">
-        <input type="phone" id="phone" class="input-text" formControlName="contact" placeholder="Contant Number">
+        <input type="phone" id="phone" class="input-text" name="phone" formControlName="contact" placeholder="Contant Number">
         <label for="phone" class="label"></label>
       </div>
 
       <div class="form-field col-lg-12">
-        <input type="message" id="name" class="input-text" formControlName="message" placeholder="Message">
+        <input type="message" id="name" class="input-text" name="message" formControlName="message" placeholder="Message">
         <label for="messgae" class="label"></label>
       </div>
 
       <div class="form-field col-lg-12">
-        <input type="submit" id="submit" class="submit-btn" value="submit">
+        <input type="submit" id="submit" class="submit-btn" name="submit" value="submit">
         <!-- <label for="messgae" class="label">Message</label> -->
       </div>
 

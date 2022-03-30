@@ -17,8 +17,15 @@ color: black;
   background-color: rgb(84, 184, 84);
 }
 .social-links img{
-  width: 5%;
-  height: 5%;
+  width: 8%;
+  height: 8%;
+}
+
+@media (max-width: 990px) {
+  .social-links img {
+    width: 15%;
+    height: 15%;
+  }
 }
 .get-in-touch {
   max-width: 800px;

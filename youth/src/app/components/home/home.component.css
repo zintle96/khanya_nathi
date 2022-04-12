@@ -34,10 +34,15 @@ img{
 .d-block {
   filter: brightness(40%);
 }
+.work .d-block {
+  filter: none;
+}
 .carousel-inner {
   object-fit: cover;
 }
-
+/* .work .carousel-inner {
+  height: 50px;
+} */
 .carousel-item {
   height: 600px !important;
 }

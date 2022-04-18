@@ -55,6 +55,10 @@ img{
   font-size: 40px;
   font-weight: bold;
 }
+.card {
+  width: 70%;
+  height: 70%;
+}
 .social-links img{
   width: 8%;
   height: 8%;
